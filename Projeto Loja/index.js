@@ -8,7 +8,7 @@ app.use('/public', express.static('public'));
 
 const router = express.Router();
 
-router.get('/', function (req, res) {
+router.get('/home', function (req, res) {
 
     res.sendFile(path.join(__dirname + '/pages/home.html'));
 });
@@ -27,6 +27,14 @@ router.get('/products', function (req, res) {
 
 router.get('/product', function (req, res) {
     res.sendFile(path.join(__dirname + '/pages/product.html'))
+})
+
+router.get('/about', function (req, res) {
+    res.sendFile(path.join(__dirname + '/pages/about.html'))
+})
+
+router.get('/contact', function (req, res) {
+    res.sendFile(path.join(__dirname + '/pages/contact.html'))
 })
 
 app.use('/', router);

@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loja Lima - Shop</title>
+    <title>Loja Lima - About Us</title>
 
-    <link rel="stylesheet" href="/public/style/style.css">
-    <link rel="stylesheet" href="/public/style/products.css">
+    <link rel="stylesheet" href="public/style/style.css">
+    <link rel="stylesheet" href="public/style/about.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -40,6 +40,7 @@
                     </ul>
                 </div>
             </div>
+
         </section>
 
     </header>
@@ -50,62 +51,41 @@
 
             <div class="barraInicioContent">
                 <div class="iconInicio">
-                    <img src="/public/medias/images/iconCasa.svg" alt="" id="iconCasa">
+                    <img src="/public/medias/images/aboutUsIcon.svg" alt="" id="iconCasa">
                 </div>
 
-                <h2>Bem vindo a melhor loja de imóveis do Brasil</h2>
+                <h2>SOBRE NÓS</h2>
             </div>
         </section>
 
-        <section class="categorias produtosG">
+        
+        <div class="theme">
+            <button id="themeChanger"><img src="public/medias/images/TEMA.png" alt="" id="themeIcon"></button>
+        </div>
 
-            <div class="theme">
-                <button id="themeChanger"><img src="public/medias/images/TEMA.png" alt="" id="themeIcon"></button>
+        <section class="box-container">
+
+            <div class="container">
+                <h1>NOSSA LOCALIZAÇÃO:</h1>
+
+                <img src="public/medias/images/mapIcon.svg" alt="">
             </div>
-            <h2>OFERECEMOS</h2>
 
-            <div class="box-containerP">
+            <div class="container">
+                <h1>QUEM SOMOS?</h1>
 
-                <div class="containerP">
-                    <div class="iconP">
-                        <img src="" alt="" id="productImage">
-                    </div>
+                <p>Nós da Loja Limas temos o objetivo de vender imóveis de forma segura, com preços acessíveis a todos, garantindo a satisfação dos clientes.</p>
 
-                    <div class="containerInfoP">
-
-                        <p id="productName">NOME PRODUTO</p>
-                        <p id="productPrice">PREÇO</p>
-
-                        <a href="#">VER</a>
-
-                    </div>
+                <div class="sub-container">
+                    <h1>ENDEREÇO:</h1>
+                    
+                    <p>AVENIDA CAMILO, 386 - COTIA / SÃO PAULO</p>
                 </div>
-                
             </div>
-
+            
         </section>
 
-    </main>
-
-    
-    <section class="maisInfo">
-        <div class="maisInfoContent">
-            <div class="iconAbout">
-                <img src="public/medias/images/aboutIcon.svg" alt="" id="aboutIcon">
-            </div>
-            <div>
-                <h2>SOBRE</h2>
-            </div>
-        </div>
-    </section>
-
-    <section class="maisInfo02">
-        <div>
-            <p>ENDEREÇO:</p>
-            <p>AVENIDA CAMILO, 386 - COTIA / SÃO PAULO</p>
-        </div>
-    </section>
-    
+    </main>   
 
     <footer>
         <div class="footerContent">
@@ -118,7 +98,6 @@
     </footer>
 
     <script src="public/scripts/theme.js"></script>
-    <script src="public/scripts/products.js"></script>
-
+    <script src="public/scripts/products.js" defer></script>
 </body>
 </html>

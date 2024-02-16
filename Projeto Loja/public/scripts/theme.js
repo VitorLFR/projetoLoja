@@ -10,6 +10,8 @@ const elements = {
     iconCasa: 'iconCasa',
     aboutIcon: 'aboutIcon',
     returnBtn: 'returnBtn',
+    youtubeIcon: 'youtubeIcon',
+    instagramIcon: 'instagramIcon'
 };
 
 let count = parseInt(window.localStorage.getItem("themeCount")) || 1;
@@ -53,6 +55,8 @@ function changeTheme() {
     setElementSrc(elements.iconCasa, `public/medias/images/${themePath}/iconCasa.svg`);
     setElementSrc(elements.aboutIcon, `public/medias/images/${themePath}/aboutIcon.svg`);
     setElementSrc(elements.returnBtn, `public/medias/images/${themePath}/returnBtn.svg`);
+    setElementSrc(elements.youtubeIcon, `public/medias/images/${themePath}/youtubeIcon.svg`);
+    setElementSrc(elements.instagramIcon, `public/medias/images/${themePath}/instagramIcon.svg`);
 }
 
 //Parte não relacionada ao tema e sim ao menu fixo mobile
