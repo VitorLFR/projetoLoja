@@ -1,0 +1,152 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Loja Lima - Home</title>
+
+        <link rel="stylesheet" href="public/style/style.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Roboto&display=swap" rel="stylesheet">
+
+    </head>
+    <body>
+        
+        <header id="header">
+            <section class="headerContent">
+                <div class="logo">
+                    <a href="/"><img src="public/medias/images/(Logo) Loja Limas.svg" alt=""></a>
+                </div>
+
+                <ul class="menu">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <li><a href="/login">Entrar</a></li>
+                </ul>
+
+                <div class="menuMobile" onclick="showMenuMobile()">
+                    <img src="public/medias/images/menuIcon.svg" alt="">
+
+                    <div class="menuMobileContent">
+                        <ul class="menuMobileContentOp">
+                            <li><a href="/">Home</a></li>
+                            <li><a href="#">Sobre</a></li>
+                            <li><a href="#">Contato</a></li>
+                            <li><a href="/login">Entrar</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </section>
+
+        </header>
+
+        <main>
+
+            <section class="barraInicio">
+
+                <div class="barraInicioContent">
+                    <div class="iconInicio">
+                        <img src="/public/medias/images/iconCasa.svg" alt="" id="iconCasa">
+                    </div>
+
+                    <h2>Bem vindo a melhor loja de imóveis do Brasil</h2>
+                </div>
+            </section>
+
+            <section class="categorias">
+
+                <div class="theme">
+                    <button id="themeChanger"><img src="public/medias/images/TEMA.png" alt="" id="themeIcon"></button>
+                </div>
+                <h2>OFERECEMOS</h2>
+
+                <div class="box-container">
+
+                    <div class="container">
+                        <div class="icon">
+                            <img src="public/medias/images/boxFazenda.svg" alt="" id="boxFazenda">
+                        </div>
+
+                        <div class="containerInfo">
+
+                            <p>FAZENDAS DE BOA QUALIDADE PERTO DE VOCÊ</p>
+
+                            <a href="/products" id="fazendasProducts">PROCURAR</a>
+
+                        </div>
+                    </div>
+
+                    <div class="container">
+                        <div class="icon">
+                            <img src="public/medias/images/boxTerreno.svg" alt="" id="boxTerreno">
+                        </div>
+
+                        <div class="containerInfo">
+                            
+                            <p>TERRENOS DE BOA QUALIDADE PERTO DE VOCÊ</p>
+
+                            <a href="/products" id="terrenosProducts" >PROCURAR</a>
+
+                        </div>
+                    </div
+                    >
+                    <div class="container">
+                        <div class="icon">
+                            <img src="public/medias/images/boxKitnet.svg" alt="" id="boxKitnet">
+                        </div>
+
+                        <div class="containerInfo">
+
+                            <p>KITNETS DE BOA QUALIDADE PERTO DE VOCÊ</p>
+
+                            <a href="/products" id="kitnetsProducts">PROCURAR</a>
+
+                        </div>
+                    </div>
+
+                </div>
+
+                
+
+            </section>
+            <a href="/products" id="seeAllProducts">VER TUDO</a>
+        </main>
+
+        
+        <section class="maisInfo">
+            <div class="maisInfoContent">
+                <div class="iconAbout">
+                    <img src="public/medias/images/aboutIcon.svg" alt="" id="aboutIcon">
+                </div>
+                <div>
+                    <h2>SOBRE</h2>
+                </div>
+            </div>
+        </section>
+
+        <section class="maisInfo02">
+            <div>
+                <p>ENDEREÇO:</p>
+                <p>AVENIDA CAMILO, 386 - COTIA / SÃO PAULO</p>
+            </div>
+        </section>
+        
+
+        <footer>
+            <div class="footerContent">
+                <div><a href="#">Termos de Uso</a></div>
+                <div><p>
+                    Bairro: Granja Viana <br>
+                    CEP: 06709-150</p></div>
+                <div><a href="#">Políticas de Privacidade</a></div>
+            </div>
+        </footer>
+
+        <script src="public/scripts/theme.js"></script>
+        <script src="public/scripts/products.js" defer></script>
+    </body>
+    </html>
