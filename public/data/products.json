@@ -1,0 +1,250 @@
+{
+    "fazendas":[
+        {
+            "id": 1,
+            "nome": "Cidade São Mateus - São Paulo/SP",
+            "imagem": "public/medias/productImages/fP01.svg",
+            "preco": 41400000,
+            "local": "São Paulo/SP",
+            "condicao": "Excelente",
+            "tamanho": null,
+            "tipo": "Fazenda"
+        },
+        {
+            "id": 2,
+            "nome": "Vila Joana - Jundiaí/SP",
+            "imagem": "public/medias/productImages/fP02.svg",
+            "preco": 610000000,
+            "local": "Jundiaí/SP",
+            "condicao": "Excelente",
+            "tamanho": null,
+            "tipo": "Fazenda"
+        },
+        {
+            "id": 3,
+            "nome": "Centro - Belo Horizonte/MG",
+            "imagem": "public/medias/productImages/fP03.svg",
+            "preco": 560000000,
+            "local": "Belo Horizonte/MG",
+            "condicao": "Excelente",
+            "tamanho": null,
+            "tipo": "Fazenda"
+        },
+        {
+            "id": 4,
+            "nome": "Bom Retiro - Curitiba/PR",
+            "imagem": "public/medias/productImages/fP04.svg",
+            "preco": 414000000,
+            "local": "Curitiba/PR",
+            "condicao": "Excelente",
+            "tamanho": null,
+            "tipo": "Fazenda"
+        },
+        {
+            "id": 5,
+            "nome": "Cidade Nova - Franca/SP",
+            "imagem": "public/medias/productImages/fP05.svg",
+            "preco": 330000000,
+            "local": "Franca/SP",
+            "condicao": "Excelente",
+            "tamanho": null,
+            "tipo": "Fazenda"
+        },
+        {
+            "id": 6,
+            "nome": "Aldeota - Fortaleza/CE",
+            "imagem": "public/medias/productImages/fP06.svg",
+            "preco": 595000000,
+            "local": "Fortaleza/CE",
+            "condicao": "Excelente",
+            "tamanho": null,
+            "tipo": "Fazenda"
+        },
+        {
+            "id": 7,
+            "nome": "Cidade São Mateus - São Paulo/SP",
+            "imagem": "public/medias/productImages/fP01.svg",
+            "preco": 41400000,
+            "local": "São Paulo/SP",
+            "condicao": "Excelente",
+            "tamanho": null,
+            "tipo": "Fazenda"
+        },
+        {
+            "id": 8,
+            "nome": "Vila Joana - Jundiaí/SP",
+            "imagem": "public/medias/productImages/fP02.svg",
+            "preco": 610000000,
+            "local": "Jundiaí/SP",
+            "condicao": "Excelente",
+            "tamanho": null,
+            "tipo": "Fazenda"
+        }   
+    ],
+
+    "terrenos":[
+        {
+            "id": 9,
+            "nome": "Monte Castelo - Campo Grande/MS",
+            "imagem": "public/medias/productImages/tP01.svg",
+            "preco": 874000,
+            "local": "Campo Grande/MS",
+            "condicao": null,
+            "tamanho": "950 km²",
+            "tipo": "Terreno"
+        },
+        {
+            "id": 10,
+            "nome": "Cidade Nova - Franca/SP",
+            "imagem": "public/medias/productImages/tP02.svg",
+            "preco": 610000,
+            "local": "Franca/SP",
+            "condicao": null,
+            "tamanho": "180 km²",
+            "tipo": "Terreno"
+        },
+        {
+            "id": 11,
+            "nome": "Casa Grande - Diadema/SP",
+            "imagem": "public/medias/productImages/tP03.svg",
+            "preco": 200000,
+            "local": "Diadema/SP",
+            "condicao": null,
+            "tamanho": "404 km²",
+            "tipo": "Terreno"
+        },
+        {
+            "id": 12,
+            "nome": "Centro - Teresina/PI",
+            "imagem": "public/medias/productImages/tP04.svg",
+            "preco": 80000,
+            "local": "Teresina/PI",
+            "condicao": null,
+            "tamanho": "205 km²",
+            "tipo": "Terreno"
+        },
+        {
+            "id": 13,
+            "nome": "Centro - Teresina/PI",
+            "imagem": "public/medias/productImages/tP05.svg",
+            "preco": 260000,
+            "local": "Teresina/PI",
+            "condicao": null,
+            "tamanho": "530 km²",
+            "tipo": "Terreno"
+        },
+        {
+            "id": 14,
+            "nome": "Vila Olímpia - São Paulo/SP",
+            "imagem": "public/medias/productImages/tP06.svg",
+            "preco":170000,
+            "local": "São Paulo/SP",
+            "condicao": null,
+            "tamanho": "350 km²",
+            "tipo": "Terreno"
+        },
+        {
+            "id": 15,
+            "nome": "Monte Castelo - Campo Grande/MS",
+            "imagem": "public/medias/productImages/tP01.svg",
+            "preco": 874000,
+            "local": "Campo Grande/MS",
+            "condicao": null,
+            "tamanho": "950 km²",
+            "tipo": "Terreno"
+        },
+        {
+            "id": 16,
+            "nome": "Cidade Nova - Franca/SP",
+            "imagem": "public/medias/productImages/tP02.svg",
+            "preco": 610000,
+            "local": "Franca/SP",
+            "condicao": null,
+            "tamanho": "180 km²",
+            "tipo": "Terreno"
+        }
+    ],
+
+    "kitnets": [
+        {
+            "id": 17,
+            "nome": "Warta - Londrina/PR",
+            "imagem": "public/medias/productImages/kP01.svg",
+            "preco": 22000,
+            "local": "Londrina/PR",
+            "condicao": "Excelente",
+            "tamanho": "35 km²",
+            "tipo": "Kitnet"
+        },
+        {
+            "id": 18,
+            "nome": "Boa Viagem - Belo Horizonte/MG",
+            "imagem": "public/medias/productImages/kP02.svg",
+            "preco": 8000,
+            "local": "Belo Horizonte/MG",
+            "condicao": "Excelente",
+            "tamanho": "25 km²",
+            "tipo": "Kitnet"
+        },
+        {
+            "id": 19,
+            "nome": "Nazaré - Belém/PA",
+            "imagem": "public/medias/productImages/kP03.svg",
+            "preco": 6000,
+            "local": "Belém/PA",
+            "condicao": "Excelente",
+            "tamanho": "50 km²",
+            "tipo": "Kitnet"
+        },
+        {
+            "id": 20,
+            "nome": "Guará I - Brasília/DF",
+            "imagem": "public/medias/productImages/kP04.svg",
+            "preco": 12000,
+            "local": "Brasília/DF",
+            "condicao": "Excelente",
+            "tamanho": "40 km²",
+            "tipo": "Kitnet"
+        },
+        {
+            "id": 21,
+            "nome": "Vila da Saúde - São Paulo/SP",
+            "imagem": "public/medias/productImages/kP05.svg",
+            "preco": 9000,
+            "local": "São Paulo/SP",
+            "condicao": "Excelente",
+            "tamanho": "30 km²",
+            "tipo": "Kitnet"
+        },
+        {
+            "id": 22,
+            "nome": "Lageadinho - Cotia/SP",
+            "imagem": "public/medias/productImages/kP06.svg",
+            "preco": 15000,
+            "local": "Cotia/SP",
+            "condicao": "Excelente",
+            "tamanho": "60 km²",
+            "tipo": "Kitnet"
+        },
+        {
+            "id": 23,
+            "nome": "Cidade São Mateus - São Paulo/SP",
+            "imagem": "public/medias/productImages/kP01.svg",
+            "preco": 18000,
+            "local": "São Paulo/SP",
+            "condicao": "Excelente",
+            "tamanho": "55 km²",
+            "tipo": "Kitnet"
+        },
+        {
+            "id": 24,
+            "nome": "Vila Joana - Jundiaí/SP",
+            "imagem": "public/medias/productImages/kP02.svg",
+            "preco": 25000,
+            "local": "Jundiaí/SP",
+            "condicao": "Excelente",
+            "tamanho": "70 km²",
+            "tipo": "Kitnet"
+        }
+    ]
+}

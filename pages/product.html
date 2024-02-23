@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Lima - Product</title>
+
+    <link rel="stylesheet" href="public/style/style.css">
+    <link rel="stylesheet" href="public/style/product.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    
+    <header id="header">
+        <section class="headerContent">
+            <div class="logo">
+                <a href="/home"><img src="public/medias/images/(Logo) Loja Limas.svg" alt=""></a>
+            </div>
+
+            <ul class="menu">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">Sobre</a></li>
+                <li><a href="/contact">Contato</a></li>
+                <li><a href="/login">Entrar</a></li>
+            </ul>
+
+            <div class="menuMobile" onclick="showMenuMobile()">
+                <img src="public/medias/images/menuIcon.svg" alt="">
+
+                <div class="menuMobileContent">
+                    <ul class="menuMobileContentOp">
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/about">Sobre</a></li>
+                        <li><a href="/contact">Contato</a></li>
+                        <li><a href="/login">Entrar</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+
+    <main>
+
+        <section class="productMain">
+            <div class="theme">
+                <button id="themeChanger"><img src="public/medias/images/TEMA.png" alt="" id="themeIcon"></button>
+            </div>
+            
+            <div class="productDisplay">
+                <div class="barralateral"></div>
+
+                <div class="ProductInfos">
+
+                    <div class="returnBtn"><a href="/products"><img src="public/medias/images/returnBtn.svg" alt="" id="returnBtn"></a></div>
+
+                    <div class="productMainInfos">
+                        <h1 id="productName">NOME DO PRODUTO</h1>
+                        <img src="public/medias/productImages/fP01.svg" alt="" id="productImage">
+                        <p id="productPrice">PREÇO</p>
+                        <a href="" id="addToCart">ADICIONAR AO CARRINHO</a>
+                    </div>
+
+                    <table class="descriptionTable">
+                        
+                    <h2>DESCRIÇÃO DO PRODUTO</h2>
+                        <tbody>
+                            <tr>
+                                <td>Local:</td>
+                                <td id="productLocal">Teste</td>
+                            </tr>
+                            <tr>
+                                <td>Condição:</td>
+                                <td id="productCondition">Teste</td>
+                            </tr>
+                            <tr>
+                                <td>Tamanho:</td>
+                                <td id="productSize">Teste</td>
+                            </tr>
+                            <tr>
+                                <td>Tipo:</td>
+                                <td id="productType">Teste</td>
+                            </tr>
+
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="barralateral"></div>
+            </div>
+        </section>
+    </main>
+
+    
+
+    <footer>
+        <div class="footerContent">
+            <div><a href="#">Termos de Uso</a></div>
+            <div><p>
+                Bairro: Granja Viana <br>
+                CEP: 06709-150</p></div>
+            <div><a href="#">Políticas de Privacidade</a></div>
+        </div>
+    </footer>
+
+    <script src="public/scripts/theme.js"></script>
+    <script src="public/scripts/product-details.js"></script>
+</body>
+</html>

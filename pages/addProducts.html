@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Lima - Admin</title>
+
+    <link rel="stylesheet" href="public/style/style.css">
+    <link rel="stylesheet" href="public/style/addProducts.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Just+Another+Hand&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header id="header">
+        <section class="headerContent">
+            <div class="logo">
+                <a href="/home"><img src="public/medias/images/(Logo) Loja Limas.svg" alt=""></a>
+            </div>
+
+            <ul class="menu">
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">Sobre</a></li>
+                <li><a href="/contact">Contato</a></li>
+                <li><a href="/login">Entrar</a></li>
+            </ul>
+
+            <div class="menuMobile" onclick="showMenuMobile()">
+                <img src="public/medias/images/menuIcon.svg" alt="">
+
+                <div class="menuMobileContent">
+                    <ul class="menuMobileContentOp">
+                        <li><a href="/home">Home</a></li>
+                        <li><a href="/about">Sobre</a></li>
+                        <li><a href="/contact">Contato</a></li>
+                        <li><a href="/login">Entrar</a></li>
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+    </header>
+
+    <main>
+
+        <section>
+
+            <div class="container">
+
+                <h1>Adicione um novo Produto aqui</h1>
+
+                <div class="productContainer">
+
+                    <span class="inputs">
+                        <h2>Nome:</h2>
+                        <input type="text" id="pNome">
+                    </span>
+
+                    <span class="inputs">
+                        <h2>Preço:</h2>
+                        <input type="text" id="pPreco">
+                    </span>
+
+                    <span class="inputs">
+                        <h2>Local:</h2>
+                        <input type="text" id="pLocal">
+                    </span>
+
+                    <span class="inputs">
+                        <h2>Condição:</h2>
+                        <input type="text" id="pCondicao">
+                    </span>
+
+                    <span class="inputs">
+                        <h2>Tamanho:</h2>
+                        <input type="text" id="pTamanho">
+                    </span>
+
+                    <span class="inputs">
+                        <h2>Tipo:</h2>
+                        <input type="text" id="pTipo">
+                    </span>
+
+                    <span class="inputs">
+                        <h2>Imagem:</h2>
+                        <input type="file" id="pImagem">
+                    </span>
+
+                </div>
+
+                <button class="addProductButton">Adicionar Produto</button>
+            </div>
+        </section>
+    </main>
+
+    <script src="public/scripts/theme.js"></script>
+    <script src="public/scripts/products.js" defer></script>
+    <script src="public/scripts/addProducts.js"></script>
+</body>
+
+</html>

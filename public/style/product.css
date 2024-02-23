@@ -1,0 +1,135 @@
+:root{
+    /* --corFundo: white; */
+    --corFundo: linear-gradient(to bottom, white, white,  #2ec4b574);
+    --cor01: #032612;
+    --cor02: #009688;
+    --cor03: #00E3CC;
+    --corFonte01: white;
+    --corFonte02: black;
+    --corFonte03: #BCC5CE;
+    --themeChangeTime: ease 0.25s;
+}
+
+main{
+    margin-bottom: 0;
+}
+
+.productMain{
+    width: 100%;
+    min-height: 30%;
+}
+
+.barralateral{
+    background-color: var(--cor02);
+    padding-bottom: 30%;
+    padding-right: 8%;
+    padding-left: 8%;
+    transition: var(--themeChangeTime);
+}
+
+.productDisplay{
+    display: flex;
+}
+
+.ProductInfos{
+    width: 70%;
+    height: 100%;
+    background-image: var(--corFundo);
+    transition: var(--themeChangeTime);
+}
+
+.returnBtn{
+    width: 10%;
+    margin: 0 auto;
+    margin-top: 2%;
+    margin-bottom: 5%;
+}
+
+.returnBtn img{
+    width: 30%;
+}
+
+.ProductInfos h1{
+    font-size: 3vw;
+    letter-spacing: 0.1vw;
+    margin-bottom: 2%;
+    color: var(--corFonte02);
+    transition: var(--themeChangeTime);
+    font-weight: 400;
+}
+
+#productImage{
+    width: 50%;
+    margin-bottom: 5%;
+}
+
+#addToCart{
+    background-color: var(--cor03);
+    color: var(--corFonte02);
+    border-radius: 30px;
+    padding: 2% 10%;
+    border: 2px solid var(--corFonte02) ;
+    font-weight: 600;
+    transition: var(--themeChangeTime);
+    font-size: 1.3vw;
+}
+
+#addToCart:hover{
+    padding: 3% 15%;
+    color: var(--corFonte01);
+    border: 3px solid var(--corFonte03) ;
+    transition: var(--themeChangeTime);
+}
+
+.productMainInfos{
+    margin-bottom: 8%;
+}
+
+.productMainInfos h1{
+    color: var(--corFonte02);
+    transition: var(--themeChangeTime);
+}
+
+.productMainInfos p{
+    color: var(--corFonte02);
+    font-size: 2vw;
+    margin-bottom: 5%;
+}
+
+.descriptionTable{
+    margin: 2% auto;
+    font-size: 2.2vw;
+    font-weight: 300;
+    letter-spacing: 0.05vw;
+    border: 3px solid var(--corFonte02);
+    width: 40%;
+    text-align: left;
+    transition: var(--themeChangeTime);
+}
+
+h2{
+    font-size: 2.5vw;
+    letter-spacing: 0.05vw;
+    color: var(--corFonte02);
+    transition: var(--themeChangeTime);
+}
+
+.descriptionTable tr{
+    background-color: #bcc5ce70;
+}
+
+.descriptionTable td{
+    color: var(--corFonte02);
+    transition: var(--themeChangeTime);
+}
+
+@media (max-width: 600px) {
+    .barralateral{
+        display: none;
+    }
+
+    .ProductInfos{
+        margin: 0 auto;
+        width: 100%;
+    }
+}

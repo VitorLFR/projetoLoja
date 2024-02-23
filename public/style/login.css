@@ -1,0 +1,111 @@
+:root{
+
+    /* --corFundo: white; */
+    --corFundo: linear-gradient(to bottom, white, white,  #2ec4b574);
+    --cor01: #032612;
+    --cor02: #009688;
+    --cor03: #00E3CC;
+    --corFonte01: white;
+    --corFonte02: black;
+    --corFonte03: #BCC5CE;
+    --themeChangeTime: ease 0.25s;
+}
+
+.headerContentL{
+    
+    display: flex;
+    padding-top: 1%;
+}
+
+.logo{
+
+    margin: 0 auto;
+}
+
+.categorias{
+
+    text-align: center;
+}
+
+.categorias h1{
+
+    font-size: 2.3vw;
+    font-weight: 400;
+}
+
+.categorias a{
+    color: var(--cor03);
+    font-size: 2.5vw;
+    text-decoration: underline;
+}
+
+.categorias a:hover{
+    color: var(--corFonte01);
+    transition: var(--themeChangeTime);
+}
+
+.categorias {
+    color: var(--corFonte02);
+}
+
+.barraInicio{
+    margin-bottom: 5%;
+}
+.box-containerL{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+    width: 25%;
+    margin-bottom: 1%;
+}
+
+.form-control{
+    margin-bottom: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+}
+
+.form-control p{
+    font-size: 1.8vw;
+    letter-spacing: 0.25px;
+    margin-bottom: 2%;
+    font-weight: 500;
+    color: var(--corFonte02);
+}
+
+.box-containerL a{
+    background-color: var(--cor03);
+    color: var(--corFonte02);
+    border-radius: 30px;
+    padding: 2% 15% ;
+    border: 3px solid var(--corFonte02) ;
+    font-weight: 400;
+    transition: var(--themeChangeTime);
+    cursor: pointer;
+    margin-top: 5%;
+    font-size: 2vw;
+    letter-spacing: 0.25px;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+}
+
+.box-containerL a:hover{
+    color: var(--corFonte01);
+    border: 3px solid var(--corFonte03) ;
+    text-decoration: underline;
+    transition: var(--themeChangeTime);
+}
+
+.form-control input{
+
+    padding: 0.2vw 1vw;
+    background-color: var(--corFonte03);
+    font-size: 1.4vw;
+    font-weight: 700;
+    letter-spacing: 3px;
+    max-width: 200px;
+    box-sizing: border-box;
+}
